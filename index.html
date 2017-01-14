@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="./dist/angular-mouse-tooltip.min.js"></script>
+<style>
+img {
+    transform: scaleX(-1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 3em;
+}
+
+input[type=checkbox] {
+    transform: scale(3);
+}
+</style>
+</head>
+<body>
+
+<form>
+  <div><label for="show">Show Tooltip?</label></div>
+  <div><input type="checkbox" ng-model="show" id="show"/></div>
+</form>
+
+<ihaochi-mouse-tooltip ng-show="show" ng-init="show=true">
+    <img src="http://i.imgur.com/UQ7Eh0b.gif" alt="cat" />
+</ihaochi-mouse-tooltip>
+<script>
+angular.module('app', ['ihaochi']);
+</script>
+</div>
+</body>
+</html>

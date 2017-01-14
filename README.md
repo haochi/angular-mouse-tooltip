@@ -18,3 +18,7 @@ angular.module('myApp', ['ihaochi'])
 
 * `x-offset: '='`: default = `10`
 * `y-offset: '='`: default = `10`
+
+# Demo
+
+[See website.](http://ihaochi.com/angular-mouse-tooltip)
