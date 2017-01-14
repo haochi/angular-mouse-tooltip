@@ -1,0 +1,15 @@
+{
+  "name": "angular-mouse-tooltip",
+  "version": "1.0.0",
+  "description": "Angular directive for mouse tooltip",
+  "main": "src/angular-mouse-tooltip.js",
+  "repository": "git@github.com:haochi/angular-mouse-tooltip.git",
+  "author": "Haochi Chen <github@ihaochi.com>",
+  "license": "MIT",
+  "scripts": {
+    "dist": "cd dist; uglifyjs ../src/*.js --output angular-mouse-tooltip.min.js --source-map angular-mouse-tooltip.min.js.map --compress --mangle"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
+  }
+}
