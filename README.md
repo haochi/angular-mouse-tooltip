@@ -1,4 +1,20 @@
-# Install
+# Get the Code
+
+Just grab the code.
+
+If you want to use `npm`
+
+```bash
+npm install angular-mouse-tooltip
+```
+
+or if you are using `yarn`
+
+```bash
+yarn add angular-mouse-tooltip
+```
+
+# Setup
 
 ```html
 <script src="angular-mouse-tooltip.js></script>
