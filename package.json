@@ -1,6 +1,6 @@
 {
   "name": "angular-mouse-tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular directive for mouse tooltip",
   "main": "src/angular-mouse-tooltip.js",
   "repository": "git@github.com:haochi/angular-mouse-tooltip.git",

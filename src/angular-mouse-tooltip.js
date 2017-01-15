@@ -22,7 +22,7 @@ angular.module('ihaochi', [])
 
             $document.on(mouseMove, mouseMoveListener);
 
-            element.css("position", "absolute");
+            element.css("position", "fixed");
             element.on('$destroy', function() {
                 $document.off(mouseMove, mouseMoveListener);
             });
